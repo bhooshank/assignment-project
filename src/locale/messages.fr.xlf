@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+  <file source-language="en-US" datatype="plaintext" original="ng2.template">
+    <body>
+      <trans-unit id="5421192770935699678" datatype="html">
+        <source>The beach stretched out before me, a vast expanse of golden sand glistening in the afternoon sun. The waves danced playfully, their rhythmic crashes creating a soothing symphony. Seagulls circled overhead, their cries echoing in the salty breeze. I could feel the warmth of the sand beneath my toes, and a sense of peace washed over me as I watched the endless horizon.</source>
+        <target>La plage s’étendait devant moi, une vaste étendue de sable doré scintillant sous le soleil de l’après-midi. Les vagues dansaient de manière ludique, leurs fracas rythmiques créant une symphonie apaisante. Les mouettes tournaient au-dessus de nous, leurs cris résonnant dans la brise salée. Je pouvais sentir la chaleur du sable sous mes orteils et un sentiment de paix m'envahissait alors que je regardais l'horizon sans fin.</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/app.component.html</context>
+          <context context-type="linenumber">87</context>
+        </context-group>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

@@ -4,6 +4,14 @@
   "newProjectRoot": "projects",
   "projects": {
     "assignment-project": {
+      "i18n": {
+        "sourceLocale":"en-US",
+        "locales": {
+          "fr":{
+            "translation":"src/locale/messages.fr.xlf"
+          }
+        }
+      },
       "projectType": "application",
       "schematics": {
         "@schematics/angular:component": {
@@ -50,6 +58,9 @@
               ],
               "outputHashing": "all"
             },
+            "fr": {
+              "localize": ["fr"]
+            },
             "development": {
               "buildOptimizer": false,
               "optimization": false,
@@ -64,6 +75,9 @@
         "serve": {
           "builder": "@angular-devkit/build-angular:dev-server",
           "configurations": {
+            "fr": {
+              "browserTarget": "assignment-project:build:development,fr"
+            },
             "production": {
               "browserTarget": "assignment-project:build:production"
             },
