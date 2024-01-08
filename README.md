@@ -2,13 +2,18 @@
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 15.2.9.
 
+#### Translation for pargraph
+English (default) use  - `ng serve`
+
+french use - `ng serve --configuration=fr`
+
 ## Development server
 
 ### For default langauge for paragraph
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files. 
 
-### For French langauge for paragraph
+### For French langauge for paragraph 
 
 Run `ng serve --configuration=fr` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
 
